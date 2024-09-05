@@ -11,6 +11,8 @@
 		9F15D45C2C86510A005D9B1D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F15D45B2C86510A005D9B1D /* ContentView.swift */; };
 		9F15D45E2C86510B005D9B1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F15D45D2C86510B005D9B1D /* Assets.xcassets */; };
 		9F15D4612C86510B005D9B1D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F15D4602C86510B005D9B1D /* Preview Assets.xcassets */; };
+		9FD4C52C2C8A39AE00D766A4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9FD4C52B2C8A39AE00D766A4 /* README.md */; };
+		9FE31CF42C88F5AB000690A5 /* ToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE31CF32C88F5AB000690A5 /* ToDoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		9F15D45B2C86510A005D9B1D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9F15D45D2C86510B005D9B1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F15D4602C86510B005D9B1D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9FD4C52B2C8A39AE00D766A4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9FE31CF32C88F5AB000690A5 /* ToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +39,7 @@
 		9F15D44D2C86510A005D9B1D = {
 			isa = PBXGroup;
 			children = (
+				9FD4C52B2C8A39AE00D766A4 /* README.md */,
 				9F15D4582C86510A005D9B1D /* SlideToUnlock */,
 				9F15D4572C86510A005D9B1D /* Products */,
 			);
@@ -55,6 +60,7 @@
 				9F15D45B2C86510A005D9B1D /* ContentView.swift */,
 				9F15D45D2C86510B005D9B1D /* Assets.xcassets */,
 				9F15D45F2C86510B005D9B1D /* Preview Content */,
+				9FE31CF32C88F5AB000690A5 /* ToDoView.swift */,
 			);
 			path = SlideToUnlock;
 			sourceTree = "<group>";
@@ -125,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FD4C52C2C8A39AE00D766A4 /* README.md in Resources */,
 				9F15D4612C86510B005D9B1D /* Preview Assets.xcassets in Resources */,
 				9F15D45E2C86510B005D9B1D /* Assets.xcassets in Resources */,
 			);
@@ -138,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F15D45C2C86510A005D9B1D /* ContentView.swift in Sources */,
+				9FE31CF42C88F5AB000690A5 /* ToDoView.swift in Sources */,
 				9F15D45A2C86510A005D9B1D /* SlideToUnlockApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
